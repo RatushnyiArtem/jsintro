@@ -28,5 +28,6 @@ let main = document.querySelector('.main_site')
 fourth.addEventListener('click',function(){
     main.style.background='url(./image/Beautiful-universe-planets-stars-light_2560x1600.jpg)'
     main.style.backgroundSize = 'cover'
+    main.style.backgroundPosition = 'fixed'
 })
 
