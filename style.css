@@ -7,16 +7,20 @@
     box-sizing: border-box;
 }
 body{
-    max-height: 947px;
-    max-width: 1920px;
+    /* max-height: 947px; */
+    /* min-height: 947px; */
+    /* max-width: 1920px;
+    width: 1920px; */
 }
 .main_site{
     width: 1920px;
     overflow: hidden;
     min-width: 1920px;
-    height: 947px;
+    /* height: 947px; */
     position: relative;
-    max-height: 947px;
+    /* max-height: 947px; */
+    /* min-height: 947px; */
+    height: 947px;
 }
 #menu{
     display: flex;
@@ -117,8 +121,9 @@ body{
 }
 #about_me{
     min-width: 400px;
-    min-height: 947px;
+    /* min-height: 947px; */
      /* max-width: 1200px; */
+     height: 947px;
      top: 0;
      left: -384px;
      padding-top: 34px;
